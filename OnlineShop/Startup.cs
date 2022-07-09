@@ -45,6 +45,10 @@ namespace OnlineShop
                 options.Cookie.IsEssential = true;
             });
 
+
+            services.AddControllersWithViews();
+            services.AddRazorPages();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -77,6 +81,8 @@ namespace OnlineShop
                   name: "areas",
                   pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}"
                 );
+
+                endpoints.MapRazorPages();
             });
         }
     }
