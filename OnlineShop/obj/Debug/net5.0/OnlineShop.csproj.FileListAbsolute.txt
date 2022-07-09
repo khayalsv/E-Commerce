@@ -173,3 +173,9 @@ C:\Users\selim\Desktop\E-Commerce\OnlineShop\obj\Debug\net5.0\Razor\Areas\Admin\
 C:\Users\selim\Desktop\E-Commerce\OnlineShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Edit.cshtml.g.cs
 C:\Users\selim\Desktop\E-Commerce\OnlineShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Details.cshtml.g.cs
 C:\Users\selim\Desktop\E-Commerce\OnlineShop\obj\Debug\net5.0\Razor\Areas\Admin\Views\Product\Delete.cshtml.g.cs
+C:\Users\selim\Desktop\E-Commerce\OnlineShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Detail.cshtml.g.cs
+C:\Users\selim\Desktop\E-Commerce\OnlineShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Home\Cart.cshtml.g.cs
+C:\Users\selim\Desktop\E-Commerce\OnlineShop\obj\Debug\net5.0\Razor\Areas\Customer\Views\Order\Checkout.cshtml.g.cs
+C:\Users\selim\Desktop\E-Commerce\OnlineShop\bin\Debug\net5.0\JetBrains.Annotations.dll
+C:\Users\selim\Desktop\E-Commerce\OnlineShop\bin\Debug\net5.0\X.PagedList.dll
+C:\Users\selim\Desktop\E-Commerce\OnlineShop\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
