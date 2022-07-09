@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -47,6 +48,7 @@ namespace OnlineShop.Areas.Admin.Controllers
 
 
         [HttpGet]
+        [Authorize]
         public IActionResult Create()
         {
             ViewData["productTypeId"] = new SelectList(_db.ProductTypes.ToList(), "Id", "ProductType");
@@ -83,6 +85,7 @@ namespace OnlineShop.Areas.Admin.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult Edit(int? id)
         {
             ViewData["productTypeId"] = new SelectList(_db.ProductTypes.ToList(), "Id", "ProductType");
@@ -121,6 +124,7 @@ namespace OnlineShop.Areas.Admin.Controllers
 
 
         [HttpGet]
+        [Authorize]
         public IActionResult Details(int? id)
         {
             if (id == null)
@@ -137,6 +141,7 @@ namespace OnlineShop.Areas.Admin.Controllers
 
 
         [HttpGet]
+        [Authorize]
         public IActionResult Delete(int? id)
         {
             if (id == null)
@@ -153,6 +158,7 @@ namespace OnlineShop.Areas.Admin.Controllers
 
         [HttpPost]
         [ActionName("Delete")]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirm(int? id)
         {
             if (id == null)
